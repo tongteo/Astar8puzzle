@@ -11,7 +11,7 @@
 using namespace std;
 
 typedef vector<int> Board;
-const Board GOAL = {1, 2, 3, 8, 0, 4, 6, 5, 7};
+const Board GOAL = {1, 2, 3, 8, 0, 4, 7, 6, 5};
 const int N = 3;
 const vector<pair<int, int>> MOVES = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
 
