@@ -49,6 +49,7 @@ void manualSolve(Board& board) {
         cout << "Chọn một số để di chuyển vào ô trống (hoặc -1 để thoát): ";
         int choice;
         cin >> choice;
+        err();
 
         if (choice == -1) {
             cout << "Bạn đã chọn thoát giữa chừng.\n";
