@@ -4,4 +4,4 @@ cd project\
 mkdir build && cd build\
 cmake ..\
 make\
-./8puzzle
+./8Puzzle
